@@ -1,5 +1,5 @@
 pipeline {
-/* A comment */
+/* A comment i*/
     agent {
         docker {
             image 'maven:3-alpine'
