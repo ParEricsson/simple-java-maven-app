@@ -2,6 +2,7 @@ pipeline {
     agent {
         docker {
             image 'maven:3-alpine'
+	    label 'AWS-slave-node'
             args '-v /root/.m2:/root/.m2'
         }
     }
